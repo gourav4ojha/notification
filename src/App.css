@@ -44,3 +44,12 @@
     transform: translateX(0%);
   }
 }
+
+
+
+input{
+  height: 1rem;
+  width: 1rem;
+  padding: auto;
+  margin: 0.3rem;
+}

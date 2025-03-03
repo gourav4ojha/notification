@@ -1,10 +1,10 @@
 import './App.css';
-import Toast from './container/toast';
+import Otp from './container/otp';
 
 function App() {
   return (
     <div className="App">
-      <Toast/>
+      <Otp/>
     </div>
   );
 }
