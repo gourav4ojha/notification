@@ -1,0 +1,46 @@
+/* .App {
+  text-align: center;
+} */
+.toast-container{
+  position: fixed;
+  top: 0.5rem;
+  right: 1.5rem;
+}
+.sucess{
+  background-color: green;
+}
+.info{
+  background-color: aqua;
+}
+.warning{
+  background-color: yellow;
+}
+.error{
+  background-color: red;
+}
+.toast{
+  width: 12rem;
+  margin: 1rem;
+  padding: 1rem;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  animation: slide 1s 1;
+  overflow: hidden;
+  span{
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    font-size: 2rem;
+    margin-top: -0.6rem;
+    
+  }
+}
+@keyframes slide{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}
